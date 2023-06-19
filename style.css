@@ -1,0 +1,297 @@
+* {
+  margin: auto;
+  max-width: 2000px;
+  height: auto;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+#wrapper {
+  width: 80%;
+  text-align: center;
+}
+
+#wrapper > aside {
+  width: 60%;
+  margin: 5% 20%;
+}
+
+#wrapper > aside > p {
+  color: #323232;
+  font-weight: lighter;
+}
+
+.container_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  justify-content: space-between;
+  padding: 1% 5% 1% 50%;
+  background-color: #df5211;
+  font-weight: bold;
+}
+
+nav > a {
+  width: 15%;
+  margin-right: 3%;
+  color: white;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  text-decoration: none;
+}
+
+#contact_us {
+  width: 20%;
+}
+
+#home_button {
+  padding: 2%;
+  margin-right: 3%;
+  text-align: center;
+  background-color: white;
+  color: #0277bd;
+  border-radius: 15px;
+  text-decoration: none;
+  border: none;
+}
+
+header {
+  width: 100%;
+  margin: 0%;
+  background-image: url(images/slider-img-2.jpg);
+  background-size: 100% 100%;
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+}
+
+#first_row {
+  padding: 5%;
+}
+
+#title_header,
+#text_header {
+  padding: 1%;
+  margin-bottom: 5%;
+  text-align: center;
+  color: white;
+}
+
+#read_more {
+  width: 50%;
+  border-radius: 25px;
+  padding: 3% 5% 3% 5%;
+  margin: 2% 20% 2% 20%;
+  background-color: #df5211;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+#last_row {
+  padding: 5%;
+}
+
+div > main > article {
+  width: 30%;
+  margin-left: 3%;
+  text-align: left;
+  align-items: flex-start;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+div > main > article:hover {
+  box-shadow: 0 6px 6px rgba(223, 82, 17, 0.6);
+}
+
+div > main > article > figure {
+  width: 100%;
+}
+
+#article_content {
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #323232;
+}
+
+div > main > article > div > h4 {
+  padding: 7% 7% 5% 7%;
+}
+
+div > main > article > div > p {
+  padding: 0% 7% 5% 7%;
+}
+
+div > main > article > div > a {
+  margin-left: 5%;
+  padding: 0% 7% 7% 0%;
+}
+
+main {
+  width: 100%;
+  margin-bottom: 5%;
+}
+#yt_video {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  background-color: #f5f5f5;
+}
+
+#yt_video > div {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  display: flex;
+}
+
+#yt_video > div > iframe {
+  border: none;
+  width: 100%;
+  height: auto;
+  margin: 0%;
+  padding: 0%;
+}
+
+#yt_video > div > div {
+  flex: 1;
+  padding: 0%;
+  margin: 0%;
+}
+
+#yt_video > div > div > div > p {
+  padding: 3%;
+  color: #0091ea;
+}
+
+#empty {
+  padding: 5%;
+}
+
+#yt_video > div > div > div > p {
+  padding: 3%;
+  color: #0091ea;
+}
+
+#empty {
+  padding: 5%;
+}
+
+#yt_video > div {
+  padding: 0%;
+  margin: 0%;
+  background-color: #f5f5f5;
+}
+
+#yt_video > div > div {
+  padding: 0%;
+  margin: 0%;
+}
+
+#images {
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+#images > figure {
+  width: 30%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+
+footer {
+  background-color: #004f7f;
+  color: white;
+  border-top: 1px solid #0091ea;
+}
+footer > p {
+  margin-top: 1%;
+}
+
+@media (max-width: 768px) {
+  .container_row {
+    flex-wrap: wrap;
+  }
+
+  .container_column {
+    flex-wrap: wrap;
+  }
+
+  #wrapper > aside {
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  #wrapper > aside > h3,
+  #wrapper > aside > p {
+    width: 100%;
+  }
+
+  nav {
+    margin: 0%;
+    padding: 2% 0% 2% 0%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  nav > a,
+  nav > #home_button {
+    padding-right: 60%;
+    padding-left: 3%;
+    margin: 3% 10% 3% 3%;
+    width: 30%;
+  }
+
+  #images > figure {
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  div > main > article {
+    width: 90%;
+    margin: 5%;
+  }
+
+  #yt_video > div > div > div > p {
+    padding: 10% 5% 10% 5%;
+  }
+
+  #empty {
+    padding: 0%;
+  }
+
+  #read_more {
+    margin: 0% 20% 0% 20%;
+  }
+}
+
+@media (max-width: 568px) {
+  nav {
+    margin: 0%;
+  }
+
+  header {
+    background-size: 100% 80%;
+    background-position: contain;
+  }
+}
